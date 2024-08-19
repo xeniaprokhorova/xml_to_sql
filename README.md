@@ -10,3 +10,5 @@
 
 Также в бекапе строка
 ALTER TABLE ONLY public.f_cat_plants ADD CONSTRAINT f_cat_plants_d_cat_catalog_id_fk FOREIGN KEY (catalog_id) REFERENCES public.d_cat_catalog(id) подразумевает добавляние ограничения внешнего ключа на столбец catalog_id таблицы F_CAT_PLANTS, который ссылается на столбец id таблицы D_CAT_CATALOG. Но должен ссылаться также на catalog_id. 
+
+Класс Main.java лежит в src проекта, как и все примеры .xml.
